@@ -1,0 +1,29 @@
+.custom-navbar {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+  }
+  
+  .navbar-items {
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+    justify-content: space-around; /* Espaciado igual entre elementos */
+    align-items: center; /* Alinear verticalmente */
+  }
+  
+  .navbar-item {
+    margin: 0 10px; /* Espaciado a los lados */
+  }
+  
+  .navbar-link {
+    text-decoration: none; /* Sin subrayado */
+    color: #007bff; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+  }
+  
+  .navbar-link:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+  }
+  
+  /* Puedes agregar más estilos según sea necesario */
+  

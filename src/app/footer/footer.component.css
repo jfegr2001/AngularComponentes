@@ -1,0 +1,42 @@
+.custom-footer {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra superior */
+    position: relative; /* Para manejar el posicionamiento */
+  }
+  
+  .footer-container {
+    text-align: center; /* Centrar texto */
+  }
+  
+  .footer-title {
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin-bottom: 15px; /* Margen inferior */
+  }
+  
+  .footer-list {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar padding */
+  }
+  
+  .footer-list li {
+    margin: 10px 0; /* Espaciado entre elementos */
+  }
+  
+  .footer-link {
+    text-decoration: none; /* Sin subrayado */
+    color: #007bff; /* Color del texto */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+  }
+  
+  .footer-link:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Centrar texto */
+    margin-top: 15px; /* Margen superior */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #6c757d; /* Color más claro para el texto */
+  }
+  

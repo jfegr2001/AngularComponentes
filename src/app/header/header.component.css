@@ -1,0 +1,42 @@
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Color de fondo similar al de Bootstrap */
+    padding: 10px 20px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto elevado */
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center; /* Alinear verticalmente el contenido */
+  }
+  
+  .search-input {
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 10px; /* Espaciado a la derecha */
+  }
+  
+  .search-button {
+    padding: 8px 12px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #28a745; /* Color verde */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+  }
+  
+  .search-button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse */
+  }
+  
+  /* Agregar estilos adicionales según sea necesario */
+  
